@@ -1,0 +1,99 @@
+/* Tags */
+
+body{
+    background-color: #2f353a;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+/* Grid */
+
+.row{
+    display: flex;
+    width: 100%;
+}
+
+@media (max-width: 600px)
+{
+    .row{
+        display: block;
+    }
+} 
+
+/* Cards */
+
+.card{
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #23272b;
+    color:white;
+    margin: 5px;
+
+}
+
+.card{
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #23272b;
+    color:white;
+    margin: 5px;
+}
+
+.card-head{
+    background-color: #23272b;
+    padding: 5px;
+
+}
+
+.card-body{
+    background-color: #2f353a;
+    padding: 5px;
+    border-color: #23272b;
+    border-style: solid none solid none;
+    border-width: 2px;
+}
+
+.card-foot{
+    padding: 5px;
+    background-color: #23272b;
+}
+
+/* Buttons */
+
+.btn{
+    padding: 15px;
+    background-color: #2f353a;
+    margin: 5px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-success{
+    background-color: #4c7e42;
+}
+
+.btn-warning{
+    background-color: #787e42;
+}
+
+.btn-danger{
+    background-color: #7e4242;
+}
+
+.btn-primary{
+    background-color: #42527e;
+}
+
+.btn:hover {
+    filter: brightness(85%);
+}
